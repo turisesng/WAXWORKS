@@ -509,3 +509,37 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* ===== Modern Refresh Overrides ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf9f6;
+  color: #222;
+}
+
+:root {
+  --primary-color: #0f9d58; /* deep emerald */
+  --secondary-color: #0b8043;
+  --light-color: #f0f0f0;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              url('../images/hero-bg.jpg') center/cover no-repeat;
+  padding: 140px 0;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border-radius: 40px;
+  padding: 14px 32px;
+  font-weight: 700;
+}
+
+.feature-card {
+  border: 1px solid #e4e4e4;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+.feature-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}

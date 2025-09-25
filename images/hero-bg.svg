@@ -1,0 +1,16 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e88e5" />
+      <stop offset="100%" stop-color="#0d47a1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#heroGradient)" />
+  <text x="50%" y="50%" font-family="Arial" font-size="48" fill="white" text-anchor="middle">WaxWorks Hero Image</text>
+  <g transform="translate(600, 300)">
+    <path d="M-50,-30 Q0,-60 50,-30 L50,30 Q0,60 -50,30 Z" fill="#ffffff33" />
+    <path d="M-40,-20 Q0,-40 40,-20 L40,20 Q0,40 -40,20 Z" fill="#ffffff22" />
+    <path d="M-30,-15 Q0,-30 30,-15 L30,15 Q0,30 -30,15 Z" fill="#ffffff11" />
+  </g>
+  <text x="50%" y="520" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Eco-Friendly Car Wash in Abuja</text>
+</svg>
